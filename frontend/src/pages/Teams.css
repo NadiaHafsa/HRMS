@@ -1,0 +1,91 @@
+.team-description {
+  font-style: italic;
+  color: #6b7280;
+  margin-bottom: 16px;
+}
+
+.team-members {
+  margin: 16px 0;
+}
+
+.team-members strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #374151;
+}
+
+.team-members ul {
+  list-style: none;
+  padding: 0;
+}
+
+.team-members li {
+  padding: 8px;
+  background: #f9fafb;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-remove {
+  background-color: #fee2e2;
+  color: #dc2626;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-remove:hover {
+  background-color: #fecaca;
+}
+
+.employee-list {
+  max-height: 400px;
+  overflow-y: auto;
+  margin: 20px 0;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.checkbox-label:hover {
+  background-color: #f9fafb;
+}
+
+.checkbox-label input {
+  width: auto;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.confirm-modal {
+  max-width: 450px;
+  text-align: center;
+}
+
+.confirm-modal h2 {
+  color: #dc2626;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.confirm-modal p {
+  color: #374151;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.confirm-modal strong {
+  color: #1f2937;
+  font-weight: 600;
+}

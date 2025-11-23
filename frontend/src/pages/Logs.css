@@ -1,0 +1,55 @@
+.logs-container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  overflow: hidden;
+}
+
+.logs-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.logs-table thead {
+  background-color: #f9fafb;
+}
+
+.logs-table th {
+  text-align: left;
+  padding: 16px;
+  font-weight: 600;
+  color: #374151;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.logs-table td {
+  padding: 16px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #6b7280;
+}
+
+.action-cell {
+  font-weight: 500;
+  color: #1f2937;
+  text-transform: capitalize;
+}
+
+.logs-table code {
+  background: #f3f4f6;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #374151;
+  display: block;
+  white-space: pre-wrap;
+}
+
+@media (max-width: 768px) {
+  .logs-table {
+    font-size: 12px;
+  }
+
+  .logs-table th, .logs-table td {
+    padding: 8px;
+  }
+}
