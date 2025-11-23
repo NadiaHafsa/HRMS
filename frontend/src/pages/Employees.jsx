@@ -63,7 +63,7 @@ const Employees = () => {
 
   const validateEmail = (email) => {
     if (!email || email.trim() === '') {
-      setErrors(prev => ({ ...prev, email: '' })); // Email is optional
+      setErrors(prev => ({ ...prev, email: '' })); // Email ID
       return true;
     }
     
@@ -79,7 +79,7 @@ const Employees = () => {
 
   const validatePhone = (phone) => {
     if (!phone || phone.trim() === '') {
-      setErrors(prev => ({ ...prev, phone: '' })); // Phone is optional
+      setErrors(prev => ({ ...prev, phone: '' })); // Phone Number
       return true;
     }
     
@@ -251,7 +251,7 @@ const Employees = () => {
 
               {/* Email Field */}
               <div className="form-group">
-                <label>Email (optional)</label>
+                <label>Email</label>
                 <input
                   type="email"
                   value={formData.email}
@@ -272,7 +272,7 @@ const Employees = () => {
 
               {/* Phone Field */}
               <div className="form-group">
-                <label>Phone (optional)</label>
+                <label>Phone</label>
                 <input
                   type="tel"
                   value={formData.phone}
